@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.container {
+    height: 77.5vh;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.formulario div {
+    flex: 1;
+    min-width: 200px;
+}
+
+input, select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #444;
+}
+
+button {
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: black;
+}
+
+.tarefa-item {
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    transition: 0.2s;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tarefa-item div:first-child {
+    flex: 1;
+    min-width: 200px;
+}
+
+.tarefa-item div:last-child {
+    display: flex;
+    gap: 10px;
+}
+
+.bg-red {
+    background: #ffcccc;
+    border-left: 6px solid #d00000;
+}
+
+.bg-yellow {
+    background: #fff3b0;
+    border-left: 6px solid #e6a700;
+}
+
+.bg-green {
+    background: #d5ffcc;
+    border-left: 6px solid #4caf50;
+}
+
+button.concluir {
+    background: #4caf50;
+}
+
+button.remover {
+    background: #d00000;
+}
+
+.legenda {
+    margin-top: 20px;
+}
+
+.legenda p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.leg {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    border-radius: 4px;
+}
+
+.leg.alta { background: #ffcccc; }
+.leg.media { background: #fff3b0; }
+.leg.baixa { background: #d5ffcc; }
+
+footer {
+    margin-top: 30px;
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .formulario {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .tarefa-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tarefa-item div:last-child {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .tarefa-item {
+        font-size: 0.9rem;
+    }
+}

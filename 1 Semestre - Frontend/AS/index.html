@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas | AS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Lista de Tarefas Interativa</h1>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="adicionar-tarefas">
+            <h2>Adicionar Tarefa</h2>
+
+            <section class="formulario">
+                <div>
+                    <label>Nome da tarefa:</label>
+                    <input type="text" id="nome-tarefa">
+                </div>
+
+                <div>
+                    <label>Prioridade:</label>
+                    <select id="prioridade">
+                        <option value="alta">Alta</option>
+                        <option value="media">Média</option>
+                        <option value="baixa">Baixa</option>
+                    </select>
+                </div>
+
+                <button id="btnAdd">Adicionar</button>
+            </section>
+        </div>
+
+        <div class="legenda">
+            <h2>Legenda de Prioridades</h2>
+            <p><span class="leg alta"></span> Alta</p>
+            <p><span class="leg media"></span> Média</p>
+            <p><span class="leg baixa"></span> Baixa</p>
+        </div>
+
+        <h2>Tarefas Pendentes</h2>
+        <div id="listaPendentes"></div>
+
+        <h2>Tarefas Concluídas</h2>
+        <div id="listaConcluidas"></div>
+
+    </div>
+</main>
+
+<footer>
+    <p>&copy; Erik Casapiccola dos Santos | AS 1°</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

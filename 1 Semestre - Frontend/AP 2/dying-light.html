@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dying Light</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="cabeca">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./Logos-dythebeast/logo2.png" alt="Logo" style="width:250px;" class="rounded-pill">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="gamesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                JOGOS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="gamesDropdown">
+                                <li><a class="dropdown-item" href="#">Dying Light</a></li>
+                                <li><a class="dropdown-item" href="./dying-light2.html">Dying Light 2 Stay Human</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./index.html">Dying Light: The Beast</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="gamesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dying Light
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="gamesDropdown">
+                                <li><a class="dropdown-item" href="#trailer">Trailer</a></li>
+                                <li><a class="dropdown-item" href="#sobre">Sobre</a></li>
+                                <li><a class="dropdown-item" href="#imagem">Imagens</a></li>
+                                <li><a class="dropdown-item" href="#outros-jogos">Franquia</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="trailer" class="Tela-Principal dy1fundo-prin">
+            <div class="container">
+                <div class="logo-the-beast">
+                    <img src="./dyinglight1-imagens/logo/logody.png" alt="Dying Light The Beast Logo">
+
+                    <button type="button" class="btn btn-trailer-solid btdy1" data-bs-toggle="modal"
+                        data-bs-target="#modalTrailer">
+                        Assista o Trailer
+                    </button>
+
+                    <div class="modal fade" id="modalTrailer" tabindex="-1" aria-labelledby="modalTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTitle">Dying Light - Trailer</h5>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="https://www.youtube.com/embed/m1glnZiWh8Q?si=QSTiycFkVRF2rkej"
+                                            title="Trailer do Jogo" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen>
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="sobre" class="Sobre-Dying-Light-The-Beast dy1fundo-sobre">
+            <div class="content-box">
+                <h1>Dying <span style="color: #55400b;">Light</span></h1>
+                <p>Dying Light é uma experiência intensa de sobrevivência em mundo aberto ambientada na cidade fictícia
+                    de Harran, uma metrópole em ruínas após a disseminação de um vírus devastador. Durante o dia, os
+                    jogadores exploram ruas destruídas, escalam prédios e buscam recursos essenciais enquanto enfrentam
+                    facções humanas e hordas de infectados. À noite, porém, o verdadeiro terror desperta — criaturas
+                    mais fortes e rápidas caçam implacavelmente qualquer um que ouse sair de seu abrigo.</p>
+
+                <p>A história acompanha Kyle Crane, um agente infiltrado enviado para investigar uma organização que
+                    pode deter a chave para a sobrevivência da humanidade. Mas à medida que se envolve com os moradores
+                    locais e descobre a dura realidade de Harran, Crane é forçado a questionar suas próprias ordens e o
+                    preço de sua missão.</p>
+
+                <p>Com um sistema dinâmico de parkour, combates brutais e uma atmosfera de constante tensão, Dying Light
+                    combina ação, horror e emoção de forma magistral. A cada pôr do sol, a luta pela sobrevivência se
+                    torna mais desesperadora — e o jogador deve decidir até onde está disposto a ir para viver mais um
+                    dia.</p>
+            </div>
+        </div>
+
+        <div id="imagem" class="fundo-imagem">
+            <div class="imagens-dying-light-the-beast">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./dyinglight1-imagens/img1.jpg" alt="Los Angeles" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./dyinglight1-imagens/img2.jpg" alt="Chicago" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./dyinglight1-imagens/img3.jpg" alt="New York" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+
+        <section id="outros-jogos" class="secao-cards">
+            <div class="container">
+
+                <h2 class="secao-titulo">Conheça a Franquia</h2>
+
+                <div class="row g-4">
+
+                    <div class="col-12 col-md-6">
+                        <div id="dy3" class="card card-jogo">
+                            <img src="./capas/capa-thebeast.jpg" class="card-img-top" alt="Dying Light 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Dying Light: The Beast</h5>
+                                <p class="card-text">O retorno sombrio de Kyle Crane. Forçado a confrontar a criatura
+                                    que cresce dentro de si, ele embarca numa jornada brutal por redenção.</p>
+                                <a href="https://store.steampowered.com/app/3008130/Dying_Light_The_Beast/" target="_blank" class="btn btn-outline-black mt-auto">Ver Jogo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div id="dy2" class="card card-jogo">
+                            <img src="./capas/capa-dyinglight2.jpg" class="card-img-top" alt="Dying Light 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Dying Light 2: Stay Human</h5>
+                                <p class="card-text">Vinte anos depois, suas escolhas moldarão o futuro da Cidade, o
+                                    último bastião da humanidade. Decida o destino de um mundo em colapso.</p>
+                                <a href="https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human_Reloaded_Edition/" target="_blank" class="btn btn-outline-black mt-auto">Ver Jogo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

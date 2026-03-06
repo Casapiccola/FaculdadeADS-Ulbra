@@ -1,0 +1,313 @@
+.navbar.fixed-top {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+    padding: 1rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(243, 234, 218);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.7vh;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.navbar .dropdown-item {
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+    display: flex;
+    align-items: center;
+
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#modalTrailer .modal-content {
+    background-color: #000;
+    border: 1px solid #333;
+}
+
+#modalTrailer .modal-header {
+    border-bottom: 1px solid #333;
+    color: #fff;
+}
+
+#modalTrailer .modal-body {
+    padding: 0;
+}
+
+/* --- ESTILOS DA TELA PRINCIPAL E LOGO CENTRAL --- */
+.dy1fundo-prin {
+    background-image: url('./dyinglight1-imagens/fundos/fundo-principal.jpg');
+}
+
+.dy2fundo-prin {
+    background-image: url('./dyinglight2-imagens/fundos/fundo-principal.jpg');
+}
+
+.dy3fundo-prin {
+    background-image: url('./fundos-dythebeast/the-beast-fundo.png');
+}
+
+.Tela-Principal {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.logo-the-beast {
+    margin-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-the-beast img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btdy1 {
+    background-color: #55400b !important;
+}
+
+.btdy32 {
+    background-color: #4a0808 !important;
+}
+
+.btn-trailer-solid {
+    display: inline-block;
+    color: #ffffff !important;
+    border: none;
+    padding: 15px 40px !important;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-trailer-solid:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    transition: ease-in 0.3s;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* PAGINA - SOBRE */
+.dy1fundo-sobre {
+    background-image: url('./dyinglight1-imagens/fundos/sobre-img.jpg');
+}
+
+.dy2fundo-sobre {
+    background-image: url('./dyinglight2-imagens/fundos/fundo-sobre.jpg');
+}
+
+.dy3fundo-sobre {
+    background-image: url('./fundos-dythebeast/fundo-sobre.jpg');
+}
+
+.Sobre-Dying-Light-The-Beast {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+    margin-top: 300px;
+    color: #f0f0f0;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-box h1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.content-box p {
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.content-box p:last-child {
+    margin-bottom: 0;
+}
+
+.fundo-imagem {
+    background-image: url('./fundos-dythebeast/fundo-img.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 2rem;
+}
+
+.imagens-dying-light-the-beast {
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.imagens-dying-light-the-beast .carousel-item {
+    height: 450px;
+}
+
+.imagens-dying-light-the-beast .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* --- ESTILOS DA SEÇÃO DE CARDS --- */
+.secao-cards {
+    background-image: url('./fundos-dythebeast/fundo-cards.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.secao-titulo {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card-jogo {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(8px);
+    color: #f0f0f0 !important;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-jogo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.7);
+}
+
+.card-jogo .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-jogo .card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-jogo .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#dy1 a {
+    background-color: #55400b;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#dy1 a:hover{
+    background-color: #947013;
+    color: #ffffff;
+}
+
+#dy2 a {
+   background-color: #4a0808;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#dy2 a:hover{
+    background-color: #921313;
+    color: #ffffff;
+}
+
+#dy3 a {
+   background-color: #103709;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#dy3 a:hover{
+    background-color: #1b610e;
+    color: #ffffff;
+}
+
+footer {
+    color: wheat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
