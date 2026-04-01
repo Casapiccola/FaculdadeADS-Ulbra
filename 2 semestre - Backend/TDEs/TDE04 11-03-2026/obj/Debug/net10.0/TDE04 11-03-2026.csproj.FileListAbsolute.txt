@@ -1,0 +1,15 @@
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\bin\Debug\net10.0\TDE04 11-03-2026.exe
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\bin\Debug\net10.0\TDE04 11-03-2026.deps.json
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\bin\Debug\net10.0\TDE04 11-03-2026.runtimeconfig.json
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\bin\Debug\net10.0\TDE04 11-03-2026.dll
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\bin\Debug\net10.0\TDE04 11-03-2026.pdb
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.AssemblyInfoInputs.cache
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.AssemblyInfo.cs
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.csproj.CoreCompileInputs.cache
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.sourcelink.json
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.dll
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\refint\TDE04 11-03-2026.dll
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.pdb
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\TDE04 11-03-2026.genruntimeconfig.cache
+C:\Users\erikc\Desktop\Faculdade_ADS\2 semestre - Backend\TDEs\TDE04 11-03-2026\obj\Debug\net10.0\ref\TDE04 11-03-2026.dll
