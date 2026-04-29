@@ -29,7 +29,7 @@ void main() {
                 break;
             default:
                 IO.println("Digite uma opção válida!");
-                continue;
+                break;
         }
 
     } while (escolha != 0);

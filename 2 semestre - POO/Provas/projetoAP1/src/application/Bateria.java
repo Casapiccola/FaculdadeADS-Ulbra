@@ -43,14 +43,7 @@ public class Bateria {
     }
 
     public void gastarBateria(int consumo) {
-        if (consumo >= this.porcentagemAtual) {
-            this.porcentagemAtual = 0;
-            System.out.println("A bateria está descarregada.");
-        }  else if (consumo < 0) {
-            System.out.println("Não é permitido consumo negativo.");
-        } else {
-            this.porcentagemAtual -= consumo;
-        }
+        this.porcentagemAtual = Math.max(0, this.porcentagemAtual - consumo);
     }
 
 }
