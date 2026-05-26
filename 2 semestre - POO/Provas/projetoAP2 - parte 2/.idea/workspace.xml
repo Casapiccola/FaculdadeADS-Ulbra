@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a75b7866-01a9-4985-8575-64cebf733eaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/entities/Genero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/entities/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/services/CrudInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/services/GeneroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projetoAP2/AP2/src/services/LivroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDEs/TDE10_28.04.2026/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDEs/TDE10_28.04.2026/src/application/Program.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3D0MnNM4W5EhsIkNRqQx1geRrWs" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Program.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/erikc/Desktop/Faculdade_ADS/2 semestre - POO/Provas/projetoAP2 - parte 2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a75b7866-01a9-4985-8575-64cebf733eaa" name="Changes" comment="" />
+      <created>1777414699817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777414699817</updated>
+      <workItem from="1777414701018" duration="7697000" />
+      <workItem from="1777423181842" duration="647000" />
+      <workItem from="1777500209324" duration="2000" />
+      <workItem from="1777511538676" duration="77000" />
+      <workItem from="1777980489730" duration="256000" />
+      <workItem from="1778019123722" duration="991000" />
+      <workItem from="1778020482811" duration="90000" />
+      <workItem from="1778022315572" duration="11000" />
+      <workItem from="1779831581846" duration="14000" />
+      <workItem from="1779831775827" duration="2128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -43,6 +43,13 @@ public int menu() {
             "Escolha: "));
 }
 
+public Integer menuEditar() {
+    return Integer.parseInt(IO.readln("O que deseja editar: \n" +
+            "[1] Nome\n" +
+            "[2] Email\n" +
+            "[3] Telefones\n"));
+}
+
 public void adicionarContato(ArrayList<Contato> contatos) {
     String nome = IO.readln("Digite o nome que deseja adicionar: ");
     String email = IO.readln("Digite o email que deseja adicionar: ");
@@ -130,13 +137,6 @@ public void editarContato(ArrayList<Contato> contatos) {
     if (encontrado == 0) {
         System.out.println("Contato não encontrado.");
     }
-}
-
-public Integer menuEditar() {
-    return Integer.parseInt(IO.readln("O que deseja editar: \n" +
-            "[1] Nome\n" +
-            "[2] Email\n" +
-            "[3] Telefones\n"));
 }
 
 public void listarContatos(ArrayList<Contato> contatos) {
