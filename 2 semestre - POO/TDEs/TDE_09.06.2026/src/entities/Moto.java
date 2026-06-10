@@ -1,5 +1,7 @@
 package entities;
 
+import entities.interfaces.Conectavel;
+
 public class Moto extends Veiculo implements Conectavel {
 
     private Boolean temSideCar;

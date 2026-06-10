@@ -1,5 +1,7 @@
 package entities;
 
+import entities.interfaces.Manutivel;
+
 public class Veiculo implements Manutivel {
 
     private String marca;

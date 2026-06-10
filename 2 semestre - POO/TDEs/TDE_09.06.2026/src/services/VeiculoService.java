@@ -1,7 +1,7 @@
 package services;
 
 import entities.Carro;
-import entities.Manutivel;
+import entities.interfaces.Manutivel;
 import entities.Moto;
 import entities.Veiculo;
 
