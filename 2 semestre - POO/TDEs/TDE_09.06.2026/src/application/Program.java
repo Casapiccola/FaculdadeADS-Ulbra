@@ -5,7 +5,6 @@ import entities.Veiculo;
 import static services.VeiculoService.executarRotina;
 
 void main() {
-
     Veiculo veiculo = new Veiculo();
     Carro carro = new Carro();
     Moto moto = new Moto();

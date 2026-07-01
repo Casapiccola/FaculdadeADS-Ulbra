@@ -1,0 +1,6 @@
+@TDE_AulaJWT_HostAddress = http://localhost:5257
+
+GET {{TDE_AulaJWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
